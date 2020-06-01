@@ -1,0 +1,131 @@
+def chatBox():
+#Function start up message
+  text = "Chatter Box v1\n"
+  txt = text.center(20)
+  print(txt)
+
+  print("Select a color:\n ")
+  print(" \n 1. Blue \n 2. Green \n 3. Red \n 4. Yellow")
+
+  color = input("\nColor: ")
+
+  set1 = 1, 2, 5, 6
+  set2 = 3, 4, 7, 8
+  
+  if (len(color) % 2) == 0:
+    numberchoice1 = set1
+  else:
+    numberchoice1 = set2 
+  
+  
+
+  if color == "Blue":
+   
+    print("\nSelect a number:", numberchoice1)
+
+    num1 = input("\nNumber: ")
+
+    if (int(num1) % 2) == 0:
+      numberchoice2 = set1
+    else:
+      numberchoice2 = set2
+
+    if num1 == "1":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "2":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "5":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "6":
+      print("\nSelect another number: ", numberchoice2)
+    else:
+      print("Please enter one of the numbers shown.")
+
+
+  elif color == "Red":
+    print("\nSelect a number:", numberchoice1)
+
+    num1 = input("\nNumber: ")
+
+    if (int(num1) % 2) == 0:
+      numberchoice2 = set1
+    else:
+      numberchoice2 = set2
+
+    if num1 == "3":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "4":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "7":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "8":
+      print("\nSelect another number: ", numberchoice2)
+    else:
+      print("Please enter one of the numbers shown.")
+
+
+  elif color == "Yellow":
+    print("\nSelect a number:", numberchoice1)
+
+    num1 = input("\nNumber: ")
+
+    if (int(num1) % 2) == 0:
+      numberchoice2 = set1
+    else:
+      numberchoice2 = set2
+
+    if num1 == "1":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "2":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "5":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "6":
+      print("\nSelect another number: ", numberchoice2)
+    else:
+      print("Please enter one of the numbers shown.")
+
+
+  elif color == "Green":
+    print("\nSelect a number:", numberchoice1)
+
+    num1 = input("\nNumber: ")
+
+    if (int(num1) % 2) == 0:
+      numberchoice2 = set1
+    else:
+      numberchoice2 = set2
+
+    if num1 == "3":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "4":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "7":
+      print("\nSelect another number: ", numberchoice2)
+    elif num1 == "8":
+      print("\nSelect another number: ", numberchoice2)
+    else:
+      print("Please enter one of the numbers shown.")
+  
+  else:
+    print("\nPlease enter one of the colors presented (Case sensitive).")
+    
+
+  num2 = input("\nNumber:")
+
+  if num2 == "1":
+    print("\Text Example 1")
+  elif num2 == "2":
+    print("\nText Example 2")
+  elif num2 == "3":
+    print("\nText Example 3")
+  elif num2 == "4":
+    print("\nText Example 4")
+  elif num2 == "5":
+    print("\nText Example 5")
+  elif num2 == "6":
+    print("\nText Example 6")
+  elif num2 == "7":
+    print("\nText Example 7")
+  elif num2 == "8":
+    print("\nText Example 8")
